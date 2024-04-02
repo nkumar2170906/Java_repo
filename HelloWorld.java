@@ -1,6 +1,7 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, world! PipeLine");
+        //System.out.println("Hello, world! PipeLine");
+	logger.log("Hello, world!");
     }
 }
 
