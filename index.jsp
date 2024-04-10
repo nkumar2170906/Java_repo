@@ -3,7 +3,7 @@
 	<head>
 		<title>JSP Test</title>
 		<%!
-			String title = "Hello World !!!!!!!!!!! Deployed through Jenkins!!";
+			String title = "Hello World!! Hello Jenkins!!";
 		%>
 	</head>
 	<body>
