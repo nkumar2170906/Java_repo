@@ -2,7 +2,7 @@ node{
    stage('Deploying to Tomcat'){
       
        sshagent(['tomcat-dev']) {
-         sh 'scp -o StrictHostKeyChecking=no /home/ansible/java_code/dist/*.war ec2-user@3.110.44.181:/opt/tomcat/webapps/'
+         sh 'scp -o StrictHostKeyChecking=no blob/368d1d113153a8fd0cdf59dd1ee2e381f3b27b81/dist/*.war ec2-user@3.110.44.181:/opt/tomcat/webapps/'
       } 
    }
 }
